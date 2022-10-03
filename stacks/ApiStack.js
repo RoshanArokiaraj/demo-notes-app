@@ -14,7 +14,7 @@ export function ApiStack({ stack, app }) {
           TABLE_NAME: table.tableName,
           STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
         },
-      },-
+      },
     },
     routes: {
         "GET /notes": "functions/list.main",
